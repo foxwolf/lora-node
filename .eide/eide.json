@@ -247,7 +247,17 @@
   },
   "targets": {
     "Debug": {
-      "excludeList": [],
+      "excludeList": [
+        "<virtual_root>/lora/mac/region/RegionAS923.c",
+        "<virtual_root>/lora/mac/region/RegionAU915.c",
+        "<virtual_root>/lora/mac/region/RegionCN779.c",
+        "<virtual_root>/lora/mac/region/RegionEU433.c",
+        "<virtual_root>/lora/mac/region/RegionEU868.c",
+        "<virtual_root>/lora/mac/region/RegionIN865.c",
+        "<virtual_root>/lora/mac/region/RegionKR920.c",
+        "<virtual_root>/lora/mac/region/RegionUS915-Hybrid.c",
+        "<virtual_root>/lora/mac/region/RegionUS915.c"
+      ],
       "toolchain": "GCC",
       "compileConfig": {
         "cpuType": "Cortex-M4",
