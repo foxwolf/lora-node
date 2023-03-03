@@ -1,0 +1,305 @@
+{
+  "name": "lora-node",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "peripheral",
+            "files": [],
+            "folders": [
+              {
+                "name": "src",
+                "files": [
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_adc.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_bstimer.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_crc.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_dac.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_delay.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_dma.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_flash.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_gpio.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_i2c.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_i2s.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_iwdg.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_lcd.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_lptimer.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_lpuart.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_pwr.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_rcc.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_rtc.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_spi.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_system.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_timer.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_uart.c"
+                  },
+                  {
+                    "path": "../../../drivers/peripheral/src/tremo_wdg.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "lora",
+        "files": [],
+        "folders": [
+          {
+            "name": "driver",
+            "files": [
+              {
+                "path": "../../../lora/driver/rtc-board.c"
+              },
+              {
+                "path": "../../../lora/driver/sx1262-board.c"
+              },
+              {
+                "path": "../../../lora/driver/utilities.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "mac",
+            "files": [
+              {
+                "path": "../../../lora/mac/LoRaMac.c"
+              },
+              {
+                "path": "../../../lora/mac/LoRaMacClassB.c"
+              },
+              {
+                "path": "../../../lora/mac/LoRaMacConfirmQueue.c"
+              },
+              {
+                "path": "../../../lora/mac/LoRaMacCrypto.c"
+              }
+            ],
+            "folders": [
+              {
+                "name": "region",
+                "files": [
+                  {
+                    "path": "../../../lora/mac/region/Region.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionAS923.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionAU915.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionCN470.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionCN779.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionCommon.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionEU433.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionEU868.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionIN865.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionKR920.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionUS915-Hybrid.c"
+                  },
+                  {
+                    "path": "../../../lora/mac/region/RegionUS915.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "radio",
+            "files": [],
+            "folders": [
+              {
+                "name": "sx126x",
+                "files": [
+                  {
+                    "path": "../../../lora/radio/sx126x/radio.c"
+                  },
+                  {
+                    "path": "../../../lora/radio/sx126x/sx126x.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "system",
+            "files": [
+              {
+                "path": "../../../lora/system/delay.c"
+              },
+              {
+                "path": "../../../lora/system/timer.c"
+              }
+            ],
+            "folders": [
+              {
+                "name": "crypto",
+                "files": [
+                  {
+                    "path": "../../../lora/system/crypto/cmac.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "platform",
+        "files": [],
+        "folders": [
+          {
+            "name": "system",
+            "files": [
+              {
+                "path": "../../../platform/system/printf-stdarg.c"
+              },
+              {
+                "path": "../../../platform/system/startup_cm4.S"
+              },
+              {
+                "path": "../../../platform/system/system_cm4.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "3b5d1c3c2290d5f1c8412d452f08dcae"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "cfg/gcc.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "ASR",
+          "cpuName": "ASR6601CB"
+        },
+        "proType": 1,
+        "speed": 4000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps",
+          "../../../drivers/peripheral/inc",
+          "../../../drivers/crypto/inc",
+          "../../../lora/driver",
+          "../../../lora/mac/region",
+          "../../../lora/mac",
+          "../../../lora/radio",
+          "../../../lora/radio/sx126x",
+          "../../../lora/system",
+          "../../../lora/system/crypto",
+          "../../../platform/CMSIS",
+          "../../../platform/system",
+          "inc"
+        ],
+        "libList": [
+          "../../../drivers/crypto/lib"
+        ],
+        "sourceDirList": [],
+        "defineList": [
+          "CONFIG_DEBUG_UART=UART0",
+          "REGION_CN470"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
